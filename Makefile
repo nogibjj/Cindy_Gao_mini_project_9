@@ -3,7 +3,8 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=main --cov=mylib test_*.py
+	python -m pytest -vv --cov=main test_*.py
+	py.test --nbval *.ipynb
 
 format:	
 	black *.py 
@@ -19,7 +20,13 @@ container-lint:
 
 refactor: format lint
 
-deploy:
-	#deploy goes here
+
+generate_and_push:
+	python main.py
+	git config
+	git config
+	git add .
+	git commit -m "test"
+	git push
 		
 all: install lint test format deploy
