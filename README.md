@@ -18,11 +18,11 @@ __main.ipynb:__ A Jupyter notebook that summarize the perform descriptive statis
 __README.md:__ Provides project structure, source of raw data, and data visualizations for the project.
 
 ## Purpose of the project
-This project is based the previous 2 projects to generate continuous integration using GitHub Actions for Python Data Science Projects with real world data.
+This project is based on the previous 2 projects to generate continuous integration using GitHub Actions for Python Data Science Projects with real-world data.
 The raw data I used is from FiveThirtyEight contains detailed information on murder statistics in U.S. cities and states for the years 2014 and 2015. 
 
 ## Data visualization
-__raw data:__ https://raw.githubusercontent.com/fivethirtyeight/data/master/murder_2016/murder_2015_final.csv <br>
+__raw data:__ https://raw.githubusercontent.com/fivethirtyeight/data/master/murder_2016/murder_2015_final.csv <br><br>
 __Description for the data:__
 |       |   2014_murders |   2015_murders |    change |
 |:------|---------------:|---------------:|----------:|
@@ -33,11 +33,11 @@ __Description for the data:__
 | 25%   |        19.5    |        22.5    |  -3       |
 | 50%   |        32      |        39      |   4       |
 | 75%   |        82      |        94      |  14       |
-| max   |       411      |       478      | 133       |<br>
+| max   |       411      |       478      | 133       |<br><br>
 
 
 __Histogram of Murders in 2014 and 2015:__
-![Histogram](Histogram_of_Murders_2014_2015.png)
+![Histogram](Histogram_of_Murders_2014_2015.png)<br><br>
 
 __Change in Murder Rates by State in 2015:__
 ![Line Chart](Change_in_Murder_Rates_by_State_in_2015.png)
