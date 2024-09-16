@@ -14,7 +14,6 @@ import matplotlib.pyplot as plt
 def general_describe(csv):
     df = load_dataset(csv)
     description = df.describe()
-    print(description)
     return description
 
 
@@ -82,12 +81,17 @@ def create_line_chart(csv):
 
 
 # Save markdown with both diagrams
-def save_to_md():
+def save_to_md(csv):
+    df = load_dataset(csv)
+    description = df.describe()
+    summary_table = description.to_markdown()
+
     with open("report.md", "w") as file:
         file.write("# Murder Data Analysis\n")
-
+        file.write("Describe:\n")
+        file.write(summary_table)
+        file.write("<br><br>\n")
         file.write("## Histogram\n")
         file.write("![Histogram](Histogram of Murders in 2014 and 2015.png)\n")
-
         file.write("## Line Chart\n")
         file.write("![Line Chart](Change in Murder Rates by State in 2015.png)\n")

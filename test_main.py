@@ -35,9 +35,10 @@ def test_diagrams():
 
 # Test the diagrams can be saved to markdown:
 def test_save_to_md():
-    save_to_md()
+    save_to_md(data)
     with open("report.md", "r") as file:
         content = file.read()
+        assert "Describe:" in content, "Summary table is missing."
         assert (
             "![Histogram](Histogram of Murders in 2014 and 2015.png)" in content
         ), "Histogram reference is missing."
