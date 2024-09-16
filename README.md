@@ -1,9 +1,10 @@
 [![Format](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/format.yml)
 [![Install](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/install.yml)
 [![Lint](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/lint.yml)
-[![Test](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/test.yml)
+[![Test](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/test.yml) <br><br>
 
-# Readme:  Continuous Integration using Gitlab Actions of Python Data Science Project
+# Readme
+## Continuous Integration using Gitlab Actions of Python Data Science Project
 __.devcontainer:__ It sets up a consistent development environment across different machines.<br><br>
 __.github/workflows:__ It defines automated workflows for CI/CD tasks.<br><br>
 __Makefile:__ It manages tasks like installing dependencies, formatting code, linting, and testing- requirements.txt.<br><br>
