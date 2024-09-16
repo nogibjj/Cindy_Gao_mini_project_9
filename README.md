@@ -4,12 +4,13 @@
 [![Test](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/test.yml)
 # Readme:  Continuous Integration using Gitlab Actions of Python Data Science Project
 
-# Purpose of the project
+## Purpose of the project
 This project is based the previous 2 projects to generate continuous integration using GitHub Actions for Python Data Science Projects with real world data.
 The raw data I used is from FiveThirtyEight contains detailed information on murder statistics in U.S. cities and states for the years 2014 and 2015. 
 
-# Data visualization
+## Data visualization
 raw data: https://raw.githubusercontent.com/fivethirtyeight/data/master/murder_2016/murder_2015_final.csv
+
 Histogram of Murders in 2014 and 2015:
 ![Histogram](Histogram_of_Murders_2014_2015.png)
 Change in Murder Rates by State in 2015:
