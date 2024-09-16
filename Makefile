@@ -23,8 +23,8 @@ refactor: format lint
 
 generate_and_push:
 	python main.py
-	git config
-	git config
+	git config --global user.name "Jiaxin-Cindy"
+	git config --global user.email "jiaxin.gao1997@gmail.com"
 	git add .
 	git commit -m "test"
 	git push
