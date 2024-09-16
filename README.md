@@ -1,3 +1,7 @@
+# Readme
+
+# Purpose of the project
+# Data visualization
 
 
 
