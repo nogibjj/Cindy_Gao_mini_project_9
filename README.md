@@ -5,6 +5,8 @@
 # Readme
 
 # Purpose of the project
+raw data: https://raw.githubusercontent.com/fivethirtyeight/data/master/murder_2016/murder_2015_final.csv
+
 # Data visualization
 
 
