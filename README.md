@@ -24,6 +24,16 @@ The raw data I used is from FiveThirtyEight contains detailed information on mur
 ## Data visualization
 __raw data:__ https://raw.githubusercontent.com/fivethirtyeight/data/master/murder_2016/murder_2015_final.csv <br>
 __Description for the data:__
+|       |   2014_murders |   2015_murders |    change |
+|:------|---------------:|---------------:|----------:|
+| count |        83      |        83      |  83       |
+| mean  |        65.747  |        75.4819 |   9.73494 |
+| std   |        79.0112 |        91.6843 |  21.8588  |
+| min   |         0      |         1      | -19       |
+| 25%   |        19.5    |        22.5    |  -3       |
+| 50%   |        32      |        39      |   4       |
+| 75%   |        82      |        94      |  14       |
+| max   |       411      |       478      | 133       |<br>
 
 
 __Histogram of Murders in 2014 and 2015:__
