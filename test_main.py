@@ -39,10 +39,10 @@ def test_save_to_md():
     with open("report.md", "r") as file:
         content = file.read()
         assert (
-            "![Histogram](histogram.png)" in content
+            "![Histogram](Histogram of Murders in 2014 and 2015.png)" in content
         ), "Histogram reference is missing."
         assert (
-            "![Line Chart](line_chart.png)" in content
+            "![Line Chart](Change in Murder Rates by State in 2015.png)" in content
         ), "Line Chart reference is missing."
 
 

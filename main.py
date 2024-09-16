@@ -87,7 +87,7 @@ def save_to_md():
         file.write("# Murder Data Analysis\n")
 
         file.write("## Histogram\n")
-        file.write("![Histogram](histogram.png)\n")
+        file.write("![Histogram](Histogram of Murders in 2014 and 2015.png)\n")
 
         file.write("## Line Chart\n")
-        file.write("![Line Chart](line_chart.png)\n")
+        file.write("![Line Chart](Change in Murder Rates by State in 2015.png)\n")
