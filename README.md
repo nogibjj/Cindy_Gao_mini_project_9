@@ -1,4 +1,5 @@
 [![Format](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/format.yml)
+[![Install](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/install.yml)
 # Readme
 
 # Purpose of the project
