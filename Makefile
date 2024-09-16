@@ -1,6 +1,6 @@
 install:
 	pip install --upgrade pip &&\
-		pip install -r requirements.txt
+	pip install -r requirements.txt
 
 test:
 	python -m pytest -vv --cov=main test_*.py
@@ -20,13 +20,13 @@ container-lint:
 
 refactor: format lint
 
-
 generate_and_push:
 	python main.py
 	git config --global user.name "Jiaxin-Cindy"
 	git config --global user.email "jiaxin.gao1997@gmail.com"
 	git add .
-	git commit -m "test"
+	git commit -m "test" || true
 	git push
-		
+
 all: install lint test format deploy
+
