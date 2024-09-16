@@ -1,5 +1,5 @@
 # Murder Data Analysis
 ## Histogram
-![Histogram](Histogram_of_Murders_2014_2015.png)
+![Histogram](Histogram of Murders in 2014 and 2015.png)
 ## Line Chart
-![Line Chart](Change_in_Murder_Rates_by_State_in_2015.png)
+![Line Chart](Change in Murder Rates by State in 2015.png)
