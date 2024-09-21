@@ -16,7 +16,7 @@ __Histograms_of_Murders_2014_2015.png:__ A histogram visually compares the distr
 __report.md:__ A markdown for the above 2 diagrams.<br><br>
 __test_lib.py:__ Contains test cases for lib.py.<br><br>
 __test_main.py:__ Contains test cases for main.py.<br><br>
-__main.ipynb:__ A Jupyter notebook that summarize the perform descriptive statistics using Panda.<br><br>
+__main.ipynb:__ A Jupyter notebook that summarize the perform descriptive statistics using Pandas.<br><br>
 __README.md:__ Provides project structure, source of raw data, and data visualizations for the project.<br><br>
 
 ## Purpose of the project
