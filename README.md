@@ -4,7 +4,7 @@
 [![Test](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/test.yml) <br><br>
 
 # Readme
-## Demo video:
+## Youtube demo video:
 https://www.youtube.com/watch?v=ilglKNsoDL8<br><br>
 ## Continuous Integration using Gitlab Actions of Python Data Science Project
 __.devcontainer:__ It sets up a consistent development environment across different machines.<br><br>
