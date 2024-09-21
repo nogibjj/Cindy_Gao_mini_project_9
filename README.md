@@ -9,6 +9,7 @@ __.devcontainer:__ It sets up a consistent development environment across differ
 __.github/workflows:__ It defines automated workflows for CI/CD tasks.<br><br>
 __Makefile:__ It manages tasks like installing dependencies, formatting code, linting, and testing- requirements.txt.<br><br>
 __requirements:__ Lists the Python packages required by the project.<br><br>
+__lib.py:__ Contains all of the calculation functions for the project.<br><br>
 __main.py:__ Contains the main code and functions for the project.<br><br>
 __Change_in_Murder_Rates_by_State_in_2015.png:__ A line chart illustrates the percentage change in murder rates across U.S. states from the previous year. <br><br>
 __Histograms_of_Murders_2014_2015.png:__ A histogram visually compares the distribution of murder counts for the years 2014 and 2015. <br><br>
