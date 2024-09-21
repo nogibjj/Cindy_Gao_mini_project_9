@@ -92,6 +92,6 @@ def save_to_md(csv):
         file.write(summary_table)
         file.write("<br><br>\n")
         file.write("## Histogram\n")
-        file.write("![Histogram](Histogram of Murders in 2014 and 2015.png)\n")
+        file.write("![Histogram](Histogram_of_Murders_2014_2015.png)\n")
         file.write("## Line Chart\n")
-        file.write("![Line Chart](Change in Murder Rates by State in 2015.png)\n")
+        file.write("![Line Chart](Change_in_Murder_Rates_by_State_in_2015.png)\n")

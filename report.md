@@ -9,7 +9,7 @@ Describe:
 | 25%   |        19.5    |        22.5    |  -3       |
 | 50%   |        32      |        39      |   4       |
 | 75%   |        82      |        94      |  14       |
-| max   |       411      |       478      | 133       |
+| max   |       411      |       478      | 133       |<br><br>
 ## Histogram
 ![Histogram](Histogram_of_Murders_2014_2015.png)
 ## Line Chart

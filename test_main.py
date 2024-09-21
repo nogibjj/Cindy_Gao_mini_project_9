@@ -40,10 +40,10 @@ def test_save_to_md():
         content = file.read()
         assert "Describe:" in content, "Summary table is missing."
         assert (
-            "![Histogram](Histogram of Murders in 2014 and 2015.png)" in content
+            "![Histogram](Histogram_of_Murders_2014_2015.png)" in content
         ), "Histogram reference is missing."
         assert (
-            "![Line Chart](Change in Murder Rates by State in 2015.png)" in content
+            "![Line Chart](Change_in_Murder_Rates_by_State_in_2015.png)" in content
         ), "Line Chart reference is missing."
 
 
