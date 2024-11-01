@@ -7,7 +7,6 @@ from mylib.lib import (
     get_max,
     get_quantile,
 )
-import pandas as pd
 import matplotlib.pyplot as plt
 
 
