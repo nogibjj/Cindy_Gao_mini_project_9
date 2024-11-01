@@ -1,7 +1,4 @@
-[![Format](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/format.yml)
-[![Install](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/install.yml)
-[![Lint](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/lint.yml)
-[![Test](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_Individual_Project_1/actions/workflows/test.yml) <br><br>
+
 
 # Readme
 ## Youtube demo video:
