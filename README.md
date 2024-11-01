@@ -1,26 +1,50 @@
+[![Format](https://github.com/nogibjj/Cindy_Gao_mini_project_9/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_mini_project_9/actions/workflows/format.yml)
+[![Install](https://github.com/nogibjj/Cindy_Gao_mini_project_9/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_mini_project_9/actions/workflows/install.yml)
+[![Lint](https://github.com/nogibjj/Cindy_Gao_mini_project_9/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_mini_project_9/actions/workflows/lint.yml)
+[![Test](https://github.com/nogibjj/Cindy_Gao_mini_project_9/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_mini_project_9/actions/workflows/test.yml)
 
+# Week 9: Cloud-Hosted Notebook Data Manipulation
+## Purpose of the project:
+* Set up a cloud-hosted Jupyter Notebook using Google Colab
+* Perform data manipulation tasks on a sample dataset <br><br>
+## Google Colab Url:
+https://colab.research.google.com/drive/1fCvkYBdmV16EmXar1vRnTKpUr2S7WRnA#scrollTo=MG8Dnx667P3P <br><br>
 
-# Readme
-## Youtube demo video:
-https://www.youtube.com/watch?v=ilglKNsoDL8<br><br>
-## Continuous Integration using Gitlab Actions of Python Data Science Project
-__.devcontainer:__ It sets up a consistent development environment across different machines.<br><br>
-__.github/workflows:__ It defines automated workflows for CI/CD tasks.<br><br>
-__Makefile:__ It manages tasks like installing dependencies, formatting code, linting, and testing- requirements.txt.<br><br>
-__requirements:__ Lists the Python packages required by the project.<br><br>
-__lib.py:__ Contains all of the calculation functions for the project.<br><br>
-__main.py:__ Contains the main code and functions for the project.<br><br>
-__Change_in_Murder_Rates_by_State_in_2015.png:__ A line chart illustrates the percentage change in murder rates across U.S. states from the previous year. <br><br>
-__Histograms_of_Murders_2014_2015.png:__ A histogram visually compares the distribution of murder counts for the years 2014 and 2015. <br><br>
-__report.md:__ A markdown for the above 2 diagrams.<br><br>
-__test_lib.py:__ Contains test cases for lib.py.<br><br>
-__test_main.py:__ Contains test cases for main.py.<br><br>
-__main.ipynb:__ A Jupyter notebook that summarize the perform descriptive statistics using Pandas.<br><br>
-__README.md:__ Provides project structure, source of raw data, and data visualizations for the project.<br><br>
+## Project Structure:
+CINDY_GAO_MINI_PROJECT_9
+├── __pycache__
+├── .devcontainer
+│   ├── devcontainer.json
+│   └── Dockerfile
+├── .github
+│   └── workflows
+│       ├── format.yml
+│       ├── install.yml
+│       ├── lint.yml
+│       └── test.yml
+├── .pytest_cache
+├── mylib
+│   ├── __pycache__
+│   ├── __init__.py
+│   └── lib.py
+├── .coverage
+├── .gitignore
+├── Change_in_Murder_Rates_by_State_in_2015.png
+├── Dockerfile
+├── figure.png
+├── Histogram_of_Murders_2014_2015.png
+├── LICENSE
+├── main.ipynb
+├── main.py
+├── Makefile
+├── README.md
+├── repeat.sh
+├── report.md
+├── requirements.txt
+├── setup.sh
+├── test_lib.py
+└── test_main.py
 
-## Purpose of the project
-This project is based on the previous 2 projects to generate continuous integration using GitHub Actions for Python Data Science Projects with real-world data.<br>
-The raw data I used is from FiveThirtyEight contains detailed information on murder statistics in U.S. cities and states for the years 2014 and 2015. <br><br>
 
 ## Data visualization
 __raw data:__ https://raw.githubusercontent.com/fivethirtyeight/data/master/murder_2016/murder_2015_final.csv <br><br>
