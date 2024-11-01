@@ -11,6 +11,7 @@
 https://colab.research.google.com/drive/1fCvkYBdmV16EmXar1vRnTKpUr2S7WRnA#scrollTo=MG8Dnx667P3P <br><br>
 
 ## Project Structure:
+```plaintext
 CINDY_GAO_MINI_PROJECT_9
 ├── __pycache__
 ├── .devcontainer
@@ -44,7 +45,7 @@ CINDY_GAO_MINI_PROJECT_9
 ├── setup.sh
 ├── test_lib.py
 └── test_main.py
-
+```
 
 ## Data visualization
 __raw data:__ https://raw.githubusercontent.com/fivethirtyeight/data/master/murder_2016/murder_2015_final.csv <br><br>
