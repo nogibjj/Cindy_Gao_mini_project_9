@@ -7,6 +7,7 @@ from mylib.lib import (
     get_max,
     get_quantile,
 )
+import pandas as pd
 import matplotlib.pyplot as plt
 
 
@@ -30,6 +31,12 @@ def custom_describe(csv, col):
         "max": get_max(df, col),
     }
     return describe_dict
+
+
+# Data Manipulation Function - change the column name
+def change_column_name(df, old_column_name, new_column_name):
+    new_df = df.rename(columns={old_column_name: new_column_name})
+    return new_df
 
 
 # Save histogram to markdown

@@ -1,10 +1,12 @@
 from main import (
     general_describe,
     custom_describe,
+    change_column_name,
     create_murder_histogram,
     create_line_chart,
     save_to_md,
 )
+import pandas as pd
 
 data = "https://raw.githubusercontent.com/fivethirtyeight/data/master/murder_2016/murder_2015_final.csv"
 
@@ -25,6 +27,13 @@ def test_custom_describe():
     assert description.loc["std", "2014_murders"] == custom_test["std"]
     assert description.loc["75%", "2014_murders"] == custom_test["75 quantile"]
     assert description.loc["min", "2014_murders"] == custom_test["min"]
+
+
+# Test the change column name function:
+def test_change_column_name():
+    df = pd.read_csv(data)
+    new_df = change_column_name(df, "change", "change in murders")
+    assert "change in murders" in new_df.columns
 
 
 # Test all the diagrams can displayed properly:
